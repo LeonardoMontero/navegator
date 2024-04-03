@@ -73,6 +73,11 @@ header{
     border-radius: 10px;
 }
 
+.food:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
 .food img{
     width: 500px;
     height: auto;
