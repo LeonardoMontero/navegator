@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: rgb(246, 246, 206);
 }
 
 h2{
@@ -35,7 +36,11 @@ header{
 
 .main {
     border: 5px solid #e6ccff;
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-top: none;
 }
 
 .presentation{
@@ -43,6 +48,8 @@ header{
     justify-content: center;  
     flex-direction: column; 
     align-items: center;
+    background-image: linear-gradient(45deg, #e6ccff, #ffccff);
+    width: 100%;
 }
 
 .food{
@@ -51,8 +58,13 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(45deg, #e6ccff, #ffccff);
+    background: linear-gradient(to bottom right, #b3d9ff, #66b3ff);
     border-radius: 50px;
+    width: 800px;
+}
+
+.food:hover{
+    opacity: 0.7;
 }
 
 .food img{
@@ -61,6 +73,9 @@ header{
     border-radius: 20px;
     cursor: pointer;
     opacity: 0.8;
+    width: 400px; /* Defina a largura desejada */
+    height: 300px; /* Defina a altura desejada */
+    object-fit: cover; /* Para manter a proporção da imagem */
 }
 
 .food a{
