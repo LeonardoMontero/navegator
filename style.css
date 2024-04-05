@@ -11,7 +11,7 @@ body {
 header{
     display: flex;
     justify-content: space-around;
-    background-color: #f99cf9;
+    background-color: #ffeaff;
     align-items: center;
     width: 100%;
     max-width: 100%;
@@ -111,7 +111,6 @@ header{
     }
     .pezinho{
         flex-direction: column;
-
     }
     h1{
         font-size: 40px;
